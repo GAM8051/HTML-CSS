@@ -1,0 +1,15 @@
+p{
+    color: aqua;
+    font-size: xx-large;
+}
+
+/* class */
+.parrafo {
+    color: blue;
+}
+
+/* ID */
+#texto {
+    color: blueviolet;
+    font-size: 30px;
+}
