@@ -1,0 +1,23 @@
+/*Adjacent Sibling
+
+h2 + p {
+    color: tomato;
+*/
+
+/*General Sibling
+h2 ~ p {
+    color: black;
+}
+*/
+
+/*Combinador Hijo Directo child
+div > p{
+    color: teal;
+}
+*/
+
+/*Combinador descendiente descendant
+div p {
+    color: springgreen;
+}
+*/
