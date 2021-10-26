@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1{
+    background-color: blue;
+}
+
+.box2{
+    background-color: rgb(30, 214, 174);
+}
+
+.box3{
+    background-color: rgb(58, 199, 45);
+}
+
+.box4{
+    background-color: rgb(218, 42, 224);
+}
+
+.box5{
+    background-color: rgb(245, 58, 58);
+}
+
+.box6{
+    background-color: rgb(195, 240, 50);
+}
