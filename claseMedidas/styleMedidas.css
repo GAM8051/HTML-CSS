@@ -1,0 +1,12 @@
+/* % medida relativa (Varia dependiendo el tamaño)
+   px medida absoluta (Nunca varia, se mantiene)
+*/
+main{
+    background-color: tomato;
+    width: 100%;
+    height: 500px;
+}
+
+p {
+    font-size: 16px;
+}
