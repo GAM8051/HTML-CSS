@@ -16,25 +16,34 @@ body {
     border: 0.3rem solid black;
     display: flex;
     flex-wrap: wrap;
+    /*align-items: baseline;
+    height: 50vh;*/
+    /*flex-wrap: wrap;
     /* justify-content: center; */
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
 }
 
 .box{
-    width: 10rem;
     height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+    /*width: 10rem;
+    height: 10rem;*/
 }
 
 .box1{
     background-color: blue;
+    flex-grow: 1;
 }
 
 .box2{
     background-color: rgb(30, 214, 174);
+    flex-grow: 1;
 }
 
 .box3{
     background-color: rgb(58, 199, 45);
+   /* order: 4;*/
 }
 
 .box4{
