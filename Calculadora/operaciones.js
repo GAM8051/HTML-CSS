@@ -29,47 +29,47 @@ function init(){
     //Agregar funcion al click y colocar # en la barra de resultado
 
     siete.onclick = function(i){
-        resultado.textContent = "7";
+        resultado.textContent += "7";
     }
 
     ocho.onclick = function(i){
-        resultado.textContent = "8";
+        resultado.textContent += "8";
     }
 
     nueve.onclick = function(i){
-        resultado.textContent = "9";
+        resultado.textContent += "9";
     }
 
     cuatro.onclick = function(i){
-        resultado.textContent = "4";
+        resultado.textContent += "4";
     }
 
     cinco.onclick = function(i){
-        resultado.textContent = "5";
+        resultado.textContent += "5";
     }
 
     seis.onclick = function(i){
-        resultado.textContent = "6";
+        resultado.textContent += "6";
     }
 
     uno.onclick = function(i){
-        resultado.textContent = "1";
+        resultado.textContent += "1";
     }
 
     dos.onclick = function(i){
-        resultado.textContent = "2";
+        resultado.textContent += "2";
     }
 
     tres.onclick = function(i){
-        resultado.textContent = "3";
+        resultado.textContent += "3";
     }
 
     cero.onclick = function(i){
-        resultado.textContent = "0";
+        resultado.textContent += "0";
     }
 
     punto.onclick = function(i){
-        resultado.textContent = ".";
+        resultado.textContent += ".";
     }
 
     //
@@ -77,24 +77,28 @@ function init(){
     multiplicacion.onclick = function(i){
         digito1 = resultado.textContent;
         operacion = "x";
+        resultado.textContent = ""
     }
 
     division.onclick = function(i){
         digito1 = resultado.textContent;
         operacion = "÷";
+        resultado.textContent = ""
     }
 
     suma.onclick = function(i){
         digito1 = resultado.textContent;
         operacion = "+";
+        resultado.textContent = ""
     }
 
     resta.onclick = function(i){
         digito1 = resultado.textContent;
         operacion = "-";
+        resultado.textContent = ""
     }
 
-    igual.onclick = function(i){
+    igual.onclick = function(i){        
         digito2 = resultado.textContent;
         respuesta();
     }
