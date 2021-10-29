@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.calculadora{
+    display: flex;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgb(160, 165, 165);
+    width: 55rem;
+    height: 55rem;
+    border-radius: 2.5rem;
+}
+
+.calculadora td button{
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    font-size: 3rem;
+    align-items: flex-end;
+}
+
+#resultado{
+    display: flex;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    width: 50rem;
+    height: 8rem;
+    line-height: 20rem;
+    background-color: white;
+    border-radius: 2.5rem; 
+}
