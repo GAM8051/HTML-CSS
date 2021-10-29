@@ -99,7 +99,7 @@ function init(){
         respuesta();
     }
 
-    //Agregar funcion al click y colocar # en la barra de resultado
+    //Identificar operacion a realizar
 
     function respuesta(){
         var contador = 0;
